@@ -50,6 +50,10 @@ when you contribute to my code, please follow these rules:
 
 * Avoid multiline ?:, use if.
 
+* If targeting Ruby 1.9, use Ruby 1.9 hash syntax (`key: value`).
+  However, if keys are a mix of strings and symbols, maintain the
+  "hash rocket" syntax (`'key' => 'value'`).
+
 * Suppress superfluous parentheses when calling methods, but keep them
   when calling "functions", i.e. when you use the return value in the
   same line.
@@ -122,7 +126,10 @@ when you contribute to my code, please follow these rules:
 * Use OptionParser for parsing complex command line options and
   ruby -s for trivial command line options.
 
-* Write for 1.9, but avoid doing things you know that will break in 1.8.
+* Write library code for 1.9, but avoid doing things you know that will
+  break in 1.8.
+
+* Write application code for 1.9.
 
 * Avoid needless metaprogramming.
 
