@@ -1,4 +1,4 @@
-= Alex Coles's Ruby Style Guide
+# Alex Coles's Ruby Style Guide
 
 You may not like all rules presented here, but they work very well for
 me and have helped producing high quality code. Everyone is free to
@@ -6,7 +6,7 @@ code however they want, write and follow their own style guides, but
 when you contribute to my code, please follow these rules:
 
 
-== Formatting:
+## Formatting:
 
 * Use ASCII (or UTF-8, if you have to).
 
@@ -34,7 +34,7 @@ when you contribute to my code, please follow these rules:
 * Strip trailing whitespace.
 
 
-== Syntax:
+## Syntax:
 
 * Use def with parentheses when there are arguments.
 
@@ -64,7 +64,7 @@ when you contribute to my code, please follow these rules:
 * Use OO regexps, and avoid =~ $0-9, $~, $` and $' when possible.
 
 
-== Naming:
+## Naming:
 
 * Use snake_case for methods.
 
@@ -87,7 +87,7 @@ when you contribute to my code, please follow these rules:
 * Prefer map over collect, detect over find, select over find_all.
 
 
-== Comments:
+## Comments:
 
 * Comments longer than a word are capitalized and use punctuation.
   Use one space after periods.
@@ -95,7 +95,7 @@ when you contribute to my code, please follow these rules:
 * Avoid superfluous comments.
 
 
-== The rest:
+## The rest:
 
 * Avoid hashes-as-optional-parameters. Does the method do too much?
 
@@ -131,7 +131,7 @@ when you contribute to my code, please follow these rules:
 * Try to keep methods at no more than 10 lines long, and preferably
   5 or less.
 
-== General:
+## General:
 
 * Code in a functional way, avoid mutation when it makes sense.
 
