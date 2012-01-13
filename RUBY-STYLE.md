@@ -50,7 +50,12 @@ when you contribute to my code, please follow these rules:
 
 * Avoid multiline ?:, use if.
 
-* Use parentheses when calling methods with arguments.
+* Suppress superfluous parentheses when calling methods, but keep them
+  when calling "functions", i.e. when you use the return value in the
+  same line.
+
+    x = Math.sin(y)
+    array.delete e
 
 * Use {...} when defining blocks on one line. Use do...end for multiline
   blocks.
