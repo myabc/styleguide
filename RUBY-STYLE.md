@@ -84,7 +84,8 @@ when you contribute to my code, please follow these rules:
 
 * When defining binary operators, name the argument "other".
 
-* Prefer map over collect, detect over find, select over find_all.
+* Prefer map over collect, detect over find, select over find_all,
+  size over length.
 
 
 ## Comments:
